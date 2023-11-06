@@ -1,9 +1,6 @@
 # Description
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/meeeet-dev/timezones.svg?style=flat-square)](https://packagist.org/packages/meeeet-dev/timezones)
-[![Build Status](https://img.shields.io/travis/meeeet-dev/timezones/master.svg?style=flat-square)](https://travis-ci.org/meeeet-dev/timezones)
-[![Quality Score](https://img.shields.io/scrutinizer/g/meeeet-dev/timezones.svg?style=flat-square)](https://scrutinizer-ci.com/g/meeeet-dev/timezones)
-[![Total Downloads](https://img.shields.io/packagist/dt/meeeet-dev/timezones.svg?style=flat-square)](https://packagist.org/packages/meeeet-dev/timezones)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
