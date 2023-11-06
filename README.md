@@ -1,4 +1,4 @@
-# Very short description of the package
+# Description
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/meeeet-dev/timezones.svg?style=flat-square)](https://packagist.org/packages/meeeet-dev/timezones)
 [![Build Status](https://img.shields.io/travis/meeeet-dev/timezones/master.svg?style=flat-square)](https://travis-ci.org/meeeet-dev/timezones)
@@ -43,7 +43,7 @@ If you discover any security related issues, please email meeeet.dev@gmail.com i
 
 ## Credits
 
-- [Jane Doe](https://github.com/meeeet-dev)
+- [Meet Bhanabhagwanwala](https://github.com/meeeet-dev)
 - [All Contributors](../../contributors)
 
 ## License
