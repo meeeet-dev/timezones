@@ -1,0 +1,56 @@
+{
+    "name": "meeeet-dev/timezones",
+    "description": "Convert Timezones",
+    "keywords": [
+        "meeeet dev",
+        "timezones"
+    ],
+    "homepage": "https://github.com/meeeet-dev/timezones",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Meeeet Dev",
+            "email": "meeeet.dev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8.0",
+        "illuminate/support": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MeeeetDev\\Timezones\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MeeeetDev\\Timezones\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MeeeetDev\\Timezones\\TimezonesServiceProvider"
+            ],
+            "aliases": {
+                "Timezones": "MeeeetDev\\Timezones\\TimezonesFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
